@@ -56,7 +56,7 @@ if __name__ == '__main__':
     engine.rootContext().setContextProperty("QtOpenTreeModel", treeModel)
     # 添加QML路径
     engine.addImportPath(Path(__file__).parent.parent)
-    engine.load(QUrl.fromLocalFile("app.qml"))
+    engine.load(QUrl.fromLocalFile("main.qml"))
     if not engine.rootObjects():
         sys.exit(-1)
     ret = app.exec()

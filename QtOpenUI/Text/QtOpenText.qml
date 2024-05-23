@@ -3,12 +3,12 @@ import QtQuick.Layouts
 import QtQuick.Controls
 
 Text{
-    property color eleColor: QtOpenStyle.Text("default","color")
-    property font eleFont: QtOpenStyle.BodyText
+    property color oColor: QtOpenStyle.Text("default","color")
+    property font oFont: QtOpenStyle.BodyText
 
     id: control
-    color: eleColor
-    font: eleFont
+    color: oColor
+    font: oFont
     horizontalAlignment: Text.AlignHCenter
     verticalAlignment: Text.AlignVCenter
 }

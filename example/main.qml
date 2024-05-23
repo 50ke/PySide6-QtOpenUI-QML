@@ -18,28 +18,28 @@ ApplicationWindow {
         spacing: 10
         anchors.centerIn: parent
         QtOpenButton{
-            eleType: "default"
-            eleText: "Default"
+            oType: "default"
+            oText: "Default"
         }
         QtOpenButton{
-            eleType: "primary"
-            eleText: "Primary"
+            oType: "primary"
+            oText: "Primary"
         }
         QtOpenButton{
-            eleType: "success"
-            eleText: "Success"
+            oType: "success"
+            oText: "Success"
         }
         QtOpenButton{
-            eleType: "warning"
-            eleText: "Warning"
+            oType: "warning"
+            oText: "Warning"
         }
         QtOpenButton{
-            eleType: "danger"
-            eleText: "Danger"
+            oType: "danger"
+            oText: "Danger"
         }
         QtOpenButton{
-            eleType: "info"
-            eleText: "Info"
+            oType: "info"
+            oText: "Info"
         }
     }
     Row {
@@ -49,28 +49,28 @@ ApplicationWindow {
         anchors.left: qqq.left
         anchors.topMargin: 10
         QtOpenButton{
-            eleType: "default"
-            eleText: "Default"
+            oType: "default"
+            oText: "Default"
         }
         QtOpenButton{
-            eleType: "plain-primary"
-            eleText: "Primary"
+            oType: "plain-primary"
+            oText: "Primary"
         }
         QtOpenButton{
-            eleType: "plain-success"
-            eleText: "Success"
+            oType: "plain-success"
+            oText: "Success"
         }
         QtOpenButton{
-            eleType: "plain-warning"
-            eleText: "Warning"
+            oType: "plain-warning"
+            oText: "Warning"
         }
         QtOpenButton{
-            eleType: "plain-danger"
-            eleText: "Danger"
+            oType: "plain-danger"
+            oText: "Danger"
         }
         QtOpenButton{
-            eleType: "plain-info"
-            eleText: "Info"
+            oType: "plain-info"
+            oText: "Info"
         }
     }
     Row {
@@ -80,34 +80,34 @@ ApplicationWindow {
         anchors.left: qqq.left
         anchors.topMargin: 10
         QtOpenButton{
-            eleShape: "round"
-            eleType: "default"
-            eleText: "Default"
+            oShape: "round"
+            oType: "default"
+            oText: "Default"
         }
         QtOpenButton{
-            eleShape: "round"
-            eleType: "primary"
-            eleText: "Primary"
+            oShape: "round"
+            oType: "primary"
+            oText: "Primary"
         }
         QtOpenButton{
-            eleShape: "round"
-            eleType: "success"
-            eleText: "Success"
+            oShape: "round"
+            oType: "success"
+            oText: "Success"
         }
         QtOpenButton{
-            eleShape: "round"
-            eleType: "warning"
-            eleText: "Warning"
+            oShape: "round"
+            oType: "warning"
+            oText: "Warning"
         }
         QtOpenButton{
-            eleShape: "round"
-            eleType: "danger"
-            eleText: "Danger"
+            oShape: "round"
+            oType: "danger"
+            oText: "Danger"
         }
         QtOpenButton{
-            eleShape: "round"
-            eleType: "info"
-            eleText: "Info"
+            oShape: "round"
+            oType: "info"
+            oText: "Info"
         }
     }
 }
