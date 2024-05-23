@@ -1,0 +1,162 @@
+{
+  "text": [
+    {
+      "type": "default",
+      "color": "#606266"
+    },
+    {
+      "type": "primary",
+      "color": "#409EFF"
+    },
+    {
+      "type": "success",
+      "color": "#67C23A"
+    },
+    {
+      "type": "warning",
+      "color": "#E6A23C"
+    },
+    {
+      "type": "danger",
+      "color": "#F56C6C"
+    },
+    {
+      "type": "info",
+      "color": "#909399"
+    }
+  ],
+  "button": [
+    {
+      "type": "default",
+      "normalTextColor": "#606266",
+      "pressedTextColor": "#409eff",
+      "hoveredTextColor": "#409eff",
+      "normalBackgroundColor": "#ffffff",
+      "pressedBackgroundColor": "#ecf5ff",
+      "hoveredBackgroundColor": "#ecf5ff",
+      "normalBorderColor": "#dcdfe6",
+      "pressedBorderColor": "#409eff",
+      "hoveredBorderColor": "#a0cfff"
+    },
+    {
+      "type": "primary",
+      "normalTextColor": "#ffffff",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#409eff",
+      "pressedBackgroundColor": "#337ecc",
+      "hoveredBackgroundColor": "#79bbff",
+      "normalBorderColor": "#409eff",
+      "pressedBorderColor": "#337ecc",
+      "hoveredBorderColor": "#79bbff"
+    },
+    {
+      "type": "success",
+      "normalTextColor": "#ffffff",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#67c23a",
+      "pressedBackgroundColor": "#529b2e",
+      "hoveredBackgroundColor": "#95d475",
+      "normalBorderColor": "#67c23a",
+      "pressedBorderColor": "#529b2e",
+      "hoveredBorderColor": "#95d475"
+    },
+    {
+      "type": "warning",
+      "normalTextColor": "#ffffff",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#e6a23c",
+      "pressedBackgroundColor": "#b88230",
+      "hoveredBackgroundColor": "#eebe77",
+      "normalBorderColor": "#e6a23c",
+      "pressedBorderColor": "#b88230",
+      "hoveredBorderColor": "#eebe77"
+    },
+    {
+      "type": "danger",
+      "normalTextColor": "#ffffff",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#f56c6c",
+      "pressedBackgroundColor": "#c45656",
+      "hoveredBackgroundColor": "#f89898",
+      "normalBorderColor": "#f56c6c",
+      "pressedBorderColor": "#c45656",
+      "hoveredBorderColor": "#f89898"
+    },
+    {
+      "type": "info",
+      "normalTextColor": "#ffffff",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#909399",
+      "pressedBackgroundColor": "#73767a",
+      "hoveredBackgroundColor": "#b1b3b8",
+      "normalBorderColor": "#909399",
+      "pressedBorderColor": "#73767a",
+      "hoveredBorderColor": "#b1b3b8"
+    },
+    {
+      "type": "plain-primary",
+      "normalTextColor": "#409eff",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#ecf5ff",
+      "pressedBackgroundColor": "#337ecc",
+      "hoveredBackgroundColor": "#409eff",
+      "normalBorderColor": "#a0cfff",
+      "pressedBorderColor": "#409eff",
+      "hoveredBorderColor": "#409eff"
+    },
+    {
+      "type": "plain-success",
+      "normalTextColor": "#67c23a",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#f0f9eb",
+      "pressedBackgroundColor": "#529b2e",
+      "hoveredBackgroundColor": "#67c23a",
+      "normalBorderColor": "#b3e19d",
+      "pressedBorderColor": "#67c23a",
+      "hoveredBorderColor": "#67c23a"
+    },
+    {
+      "type": "plain-warning",
+      "normalTextColor": "#e6a23c",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#fdf6ec",
+      "pressedBackgroundColor": "#b88230",
+      "hoveredBackgroundColor": "#e6a23c",
+      "normalBorderColor": "#f3d19e",
+      "pressedBorderColor": "#e6a23c",
+      "hoveredBorderColor": "#e6a23c"
+    },
+    {
+      "type": "plain-danger",
+      "normalTextColor": "#f56c6c",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#fef0f0",
+      "pressedBackgroundColor": "#c45656",
+      "hoveredBackgroundColor": "#f56c6c",
+      "normalBorderColor": "#fab6b6",
+      "pressedBorderColor": "#f56c6c",
+      "hoveredBorderColor": "#f56c6c"
+    },
+    {
+      "type": "plain-info",
+      "normalTextColor": "#909399",
+      "pressedTextColor": "#ffffff",
+      "hoveredTextColor": "#ffffff",
+      "normalBackgroundColor": "#f4f4f5",
+      "pressedBackgroundColor": "#73767a",
+      "hoveredBackgroundColor": "#909399",
+      "normalBorderColor": "#c8c9cc",
+      "pressedBorderColor": "#909399",
+      "hoveredBorderColor": "#909399"
+    }
+  ]
+}

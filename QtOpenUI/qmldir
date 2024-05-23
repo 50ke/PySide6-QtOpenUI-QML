@@ -1,0 +1,3 @@
+module QtOpenUI
+QtOpenButton 1.0 Button/QtOpenButton.qml
+QtOpenText 1.0 Text/QtOpenText.qml

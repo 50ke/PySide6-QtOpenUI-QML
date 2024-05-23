@@ -1,0 +1,23 @@
+[
+  {
+    "name": "默认主题",
+    "color": {
+      "backgroundColor": "#ffffff",
+      "textColor": "#cfd3dc"
+    }
+  },
+  {
+    "name": "红白配",
+    "color": {
+      "backgroundColor": "red",
+      "textColor": "white"
+    }
+  },
+  {
+    "name": "黑白配",
+    "color": {
+      "backgroundColor": "black",
+      "textColor": "white"
+    }
+  }
+]

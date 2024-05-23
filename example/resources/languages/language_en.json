@@ -1,0 +1,13 @@
+{
+    "lang": "English",
+    "trans":[
+        {
+            "key": "key1",
+            "value": "Simple Chinese"
+        },
+        {
+            "key": "key2",
+            "value": "Japanese"
+        }
+    ]
+}
