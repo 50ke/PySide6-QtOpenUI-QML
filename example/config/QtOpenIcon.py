@@ -15,6 +15,7 @@ class QtOpenIcon(QObject):
         for file in files:
             self._icons[file.completeBaseName()] = self._icon_prefix + file.fileName()
 
-    @Slot
-    def load(self, name):
+    @Slot(str, result=str)
+    def icon(self, name):
+        a = self._icons[name]
         return self._icons[name]

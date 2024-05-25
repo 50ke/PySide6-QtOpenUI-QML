@@ -110,4 +110,52 @@ ApplicationWindow {
             oText: "Info"
         }
     }
+    Row {
+        id: ttt
+        spacing: 10
+        anchors.top: rrr.bottom
+        anchors.left: rrr.left
+        anchors.topMargin: 10
+        QtOpenIconButton{
+            oShape: "round"
+            oType: "default"
+            oText: "Default"
+            oIconSource: QtOpenIcon.icon("aim")
+        }
+        QtOpenIconButton{
+            oShape: "round"
+            oType: "primary"
+            oText: "Primary"
+            oIconSource: QtOpenIcon.icon("aim")
+            display: AbstractButton.IconOnly
+        }
+        QtOpenIconButton{
+            oShape: "round"
+            oType: "success"
+            oText: "Success"
+            oIconSource: QtOpenIcon.icon("aim")
+            display: AbstractButton.IconOnly
+        }
+        QtOpenIconButton{
+            oShape: "round"
+            oType: "warning"
+            oText: "Warning"
+            oIconSource: QtOpenIcon.icon("aim")
+            display: AbstractButton.IconOnly
+        }
+        QtOpenIconButton{
+            oShape: "round"
+            oType: "danger"
+            oText: "Danger"
+            oIconSource: QtOpenIcon.icon("aim")
+            display: AbstractButton.IconOnly
+        }
+        QtOpenIconButton{
+            oShape: "default"
+            oType: "info"
+            oText: "Info"
+            oIconSource: QtOpenIcon.icon("aim")
+            display: AbstractButton.IconOnly
+        }
+    }
 }

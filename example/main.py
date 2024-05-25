@@ -10,6 +10,7 @@ from config.QtOpenStyle import QtOpenStyle
 from config.QtOpenTheme import QtOpenTheme
 from example.config.QtOpenTreeModel import QtOpenTreeModel, TreeNode
 
+import qtopenui_rc
 
 def build():
     rootItem = TreeNode("root")
@@ -43,7 +44,7 @@ def init():
     i18n = QtOpenI18n("resources/languages")
     theme = QtOpenTheme("resources/themes/theme.json")
     style = QtOpenStyle("resources/styles/style.json")
-    icon = QtOpenIcon("resources/icons", ":/icons/resources/icon/")
+    icon = QtOpenIcon("resources/icons", "qrc:/icons/resources/icons/")
     treeModel = QtOpenTreeModel(build())
     return i18n, theme, style, icon, treeModel
 
