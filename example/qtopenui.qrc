@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>resources/icon/aim.svg</file>
+    </qresource>
+</RCC>
