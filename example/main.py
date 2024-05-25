@@ -1,12 +1,12 @@
 import sys
 from pathlib import Path
 
-from PySide6.QtCore import QObject, Slot, QUrl
+from PySide6.QtCore import QUrl, QDir
 from PySide6.QtGui import QGuiApplication
-from PySide6.QtQml import QQmlApplicationEngine, QmlElement
-from i18n.QtOpenI18n import QtOpenI18n
-from theme.QtOpenTheme import QtOpenTheme
-from style.QtOpenStyle import QtOpenStyle
+from PySide6.QtQml import QQmlApplicationEngine
+from config.QtOpenI18n import QtOpenI18n
+from config.QtOpenTheme import QtOpenTheme
+from config.QtOpenStyle import QtOpenStyle
 from model.QtOpenTreeModel import QtOpenTreeModel, TreeNode
 
 
@@ -36,10 +36,18 @@ def build():
     rootItem.appendChild(childItem6)
     rootItem.appendChild(childItem7)
     rootItem.appendChild(childItem8)
-
     return rootItem
 
+def buildIcon():
+    dir = QDir("resources/icons")
+    files = dir.entryInfoList(["*.svg"])
+    for file in files:
+        filename = file.fileName()
+        # print("<file>resources/icon/%s</file>" % filename)
+        print(":/icons/resources/icon/%s" % filename)
+
 if __name__ == '__main__':
+    buildIcon()
     app = QGuiApplication(sys.argv)
     i18n = QtOpenI18n("resources/languages")
     theme = QtOpenTheme("resources/themes/theme.json")
