@@ -1,13 +1,14 @@
 import sys
 from pathlib import Path
 
-from PySide6.QtCore import QUrl, QDir
+from PySide6.QtCore import QUrl
 from PySide6.QtGui import QGuiApplication
 from PySide6.QtQml import QQmlApplicationEngine
 from config.QtOpenI18n import QtOpenI18n
-from config.QtOpenTheme import QtOpenTheme
+from config.QtOpenIcon import QtOpenIcon
 from config.QtOpenStyle import QtOpenStyle
-from model.QtOpenTreeModel import QtOpenTreeModel, TreeNode
+from config.QtOpenTheme import QtOpenTheme
+from example.config.QtOpenTreeModel import QtOpenTreeModel, TreeNode
 
 
 def build():
@@ -38,29 +39,27 @@ def build():
     rootItem.appendChild(childItem8)
     return rootItem
 
-def buildIcon():
-    dir = QDir("resources/icons")
-    files = dir.entryInfoList(["*.svg"])
-    for file in files:
-        filename = file.fileName()
-        # print("<file>resources/icon/%s</file>" % filename)
-        print(":/icons/resources/icon/%s" % filename)
-
-if __name__ == '__main__':
-    buildIcon()
-    app = QGuiApplication(sys.argv)
+def init():
     i18n = QtOpenI18n("resources/languages")
     theme = QtOpenTheme("resources/themes/theme.json")
     style = QtOpenStyle("resources/styles/style.json")
+    icon = QtOpenIcon("resources/icons", ":/icons/resources/icon/")
     treeModel = QtOpenTreeModel(build())
+    return i18n, theme, style, icon, treeModel
 
+if __name__ == '__main__':
+    i18n, theme, style, icon, treeModel = init()
+    app = QGuiApplication(sys.argv)
     engine = QQmlApplicationEngine()
     # 国际化
     engine.rootContext().setContextProperty("QtOpenI18n", i18n)
     # 主题设置
     engine.rootContext().setContextProperty("QtOpenTheme", theme)
+    # icon
+    engine.rootContext().setContextProperty("QtOpenIcon", icon)
     # 样式
     engine.rootContext().setContextProperty("QtOpenStyle", style)
+    # 树形菜单数据
     engine.rootContext().setContextProperty("QtOpenTreeModel", treeModel)
     # 添加QML路径
     engine.addImportPath(Path(__file__).parent.parent)
