@@ -158,4 +158,23 @@ ApplicationWindow {
             display: AbstractButton.IconOnly
         }
     }
+    Row {
+        id: yyy
+        spacing: 50
+        anchors.top: ttt.bottom
+        anchors.left: ttt.left
+        anchors.topMargin: 10
+        QtOpenBorder{
+            radius: 0
+        }
+        QtOpenBorder{
+            radius: 2
+        }
+        QtOpenBorder{
+            radius: 4
+        }
+        QtOpenBorder{
+            radius: 20
+        }
+    }
 }
