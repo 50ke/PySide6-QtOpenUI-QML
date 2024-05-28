@@ -2,22 +2,43 @@
   {
     "name": "默认主题",
     "color": {
-      "backgroundColor": "#ffffff",
-      "textColor": "#cfd3dc"
+      "backgroundColor": "#79bbff",
+      "textColor": "#ffffff"
     }
   },
   {
-    "name": "红白配",
+    "name": "绿色",
     "color": {
-      "backgroundColor": "red",
-      "textColor": "white"
+      "backgroundColor": "#95d475",
+      "textColor": "#ffffff"
     }
   },
   {
-    "name": "黑白配",
+    "name": "橙色",
     "color": {
-      "backgroundColor": "black",
-      "textColor": "white"
+      "backgroundColor": "#eebe77",
+      "textColor": "#ffffff"
+    }
+  },
+    {
+    "name": "红色",
+    "color": {
+      "backgroundColor": "#f89898",
+      "textColor": "#ffffff"
+    }
+  },
+  {
+    "name": "红色",
+    "color": {
+      "backgroundColor": "#b1b3b8",
+      "textColor": "#ffffff"
+    }
+  },
+    {
+    "name": "黑色",
+    "color": {
+      "backgroundColor": "#303133",
+      "textColor": "#ffffff"
     }
   }
 ]

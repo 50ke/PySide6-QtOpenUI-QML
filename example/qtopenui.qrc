@@ -293,5 +293,7 @@
         <file>resources/icons/wind-power.svg</file>
         <file>resources/icons/zoom-in.svg</file>
         <file>resources/icons/zoom-out.svg</file>
+        <file>resources/icons/skin.svg</file>
+        <file>resources/icons/language.svg</file>
     </qresource>
 </RCC>

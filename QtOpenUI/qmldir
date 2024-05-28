@@ -1,5 +1,6 @@
 module QtOpenUI
 QtOpenButton 1.0 Button/QtOpenButton.qml
 QtOpenIconButton 1.0 Button/QtOpenIconButton.qml
+QtOpenIconButton1 1.0 Button/QtOpenIconButton1.qml
 QtOpenText 1.0 Text/QtOpenText.qml
 QtOpenBorder 1.0 Border/QtOpenBorder.qml

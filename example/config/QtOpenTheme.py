@@ -11,7 +11,7 @@ class QtOpenTheme(QObject):
     def __init__(self, file_path):
         QObject.__init__(self)
         self._file_path = file_path
-        self._name = "默认主题"
+        self._name = "黑色"
         self._themes = {}
         self.load_theme(self._file_path)
         self._backgroundColor = self._themes[self._name]["backgroundColor"]
