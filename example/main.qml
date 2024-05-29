@@ -33,10 +33,7 @@ ApplicationWindow {
                 oIconSource: QtOpenIcon.icon("setting")
             }
             QtOpenIconButton1{
-                oIconSource: QtOpenIcon.icon("minus")
-            }
-            QtOpenIconButton1{
-                oIconSource: QtOpenIcon.icon("close")
+                oIconSource: QtOpenIcon.icon("question-circle")
             }
         }
     }
