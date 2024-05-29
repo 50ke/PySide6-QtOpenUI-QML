@@ -6,8 +6,6 @@ import QtQuick.Layouts
 import QtOpenUI 1.0
 
 RoundButton {
-    // 可选类型: | default | primary| success| warning | danger | info | plain-primary| plain-success| plain-warning | plain-danger | plain-info |
-    property string oType: "default"
     property string oIconSource
     property color oNormalTextColor: "#dedfe0"
     property color oPressedTextColor: "#ffffff"

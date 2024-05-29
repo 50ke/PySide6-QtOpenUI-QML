@@ -23,16 +23,16 @@ ApplicationWindow {
             anchors.verticalCenter: parent.verticalCenter
             anchors.right: parent.right
             spacing: 10
-            QtOpenIconButton1{
+            QtOpenPureIconButton{
                 oIconSource: QtOpenIcon.icon("skin")
             }
-            QtOpenIconButton1{
+            QtOpenPureIconButton{
                 oIconSource: QtOpenIcon.icon("language")
             }
-            QtOpenIconButton1{
+            QtOpenPureIconButton{
                 oIconSource: QtOpenIcon.icon("setting")
             }
-            QtOpenIconButton1{
+            QtOpenPureIconButton{
                 oIconSource: QtOpenIcon.icon("question-circle")
             }
         }
@@ -42,10 +42,26 @@ ApplicationWindow {
         // ...
     }
 
-    Rectangle{
+    Row{
         anchors.fill: parent
-        color: "red"
+
+        Rectangle{
+            width: 200
+            height: parent.height
+            color: "red"
+            QtOpenTreeView{
+                anchors.fill: parent
+                oModel: QtOpenTreeModel
+            }
+        }
+        Rectangle{
+            width: parent.width-100
+            height: parent.height
+            color: "green"
+        }
     }
+
+
 
 //    StackView {
 //        anchors.fill: parent
