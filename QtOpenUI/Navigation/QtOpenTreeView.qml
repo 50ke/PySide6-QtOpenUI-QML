@@ -40,14 +40,14 @@ TreeView {
                 visible: depth == 0
                 width: 16
                 height: 16
-                source: QtOpenIcon.icon("setting")
+                source: QtOpenIcon.namedIcon(model.display)
             }
             Item {
                 anchors.verticalCenter: parent.verticalCenter
                 width: depth == 0 ? 0 : 20
                 height: 16
             }
-            Text {
+            QtOpenText {
                 anchors.verticalCenter: parent.verticalCenter
                 id: label
                 clip: true
@@ -66,47 +66,5 @@ TreeView {
                 source: treeDelegate.expanded ? QtOpenIcon.icon("angle-up-solid") : QtOpenIcon.icon("angle-down-solid")
             }
         }
-//        Rectangle{
-//            height: 32
-//            color: "yellow"
-//            Row{
-//                anchors.fill: parent
-//
-//                spacing: 10
-//                Image {
-//                anchors.verticalCenter: parent.verticalCenter
-//                    width: 24
-//                    height: 24
-//                    source: QtOpenIcon.icon("setting")
-//                }
-//                Text {
-//                anchors.verticalCenter: parent.verticalCenter
-//                    id: label
-//                    x: padding + (treeDelegate.isTreeNode ? (treeDelegate.depth + 1) * treeDelegate.indent : 0)
-//                    width: treeDelegate.width - treeDelegate.padding - x
-//                    clip: true
-//                    text: model.display
-//                }
-//            }
-//        }
-
-
-//        Text {
-//            id: indicator
-//            visible: treeDelegate.isTreeNode && treeDelegate.hasChildren
-//            x: padding + (treeDelegate.depth * treeDelegate.indent)
-//            anchors.verticalCenter: label.verticalCenter
-//            text: "▶"
-//            rotation: treeDelegate.expanded ? 90 : 0
-//        }
-
-//        Text {
-//            id: label
-//            x: padding + (treeDelegate.isTreeNode ? (treeDelegate.depth + 1)
-//                                                    * treeDelegate.indent : 0)
-//            width: treeDelegate.width - treeDelegate.padding - x
-//            clip: true
-//            text: model.display
-//        }
     }
 }
